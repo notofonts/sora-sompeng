@@ -1,7 +1,7 @@
 {
-.appVersion = "1271";
+.appVersion = "3109";
 DisplayStrings = (
-"/.notdef   -/hyphentwo/u110D2/u110F5/u110D3/u110D0/u110E6/u110DB/u110D4 \012/u110D5/u110D1/u110D6/u110D7/u110E1/u110E0/u110E7/u110D9/u110DC/u110D8/u110DD/u110F1/u110F2 \012/u110DE/u110E4/u110DF/u110DA/u110DB/u110E2/u110E3/u110E5/u110F0/u110E8/u110F3/u110F4/u110F6/u110F7/u110F8/u110F9"
+"-"
 );
 copyright = "Copyright 2022 The Noto Project Authors (https://github.com/notofonts/sora-sompeng)";
 customParameters = (
@@ -42,30 +42,6 @@ value = (
 31,
 57
 );
-},
-{
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "https://scripts.sil.org/OFL";
-},
-{
-name = trademark;
-value = "Noto is a trademark of Google LLC.";
-},
-{
-name = description;
-value = "Designed by Monotype design team. David Williams.";
-},
-{
-name = vendorID;
-value = GOOG;
-},
-{
-name = versionString;
-value = "Version 2.101";
 },
 {
 name = openTypeNameVersion;
@@ -158,6 +134,38 @@ uni00A0
 );
 },
 {
+name = "Enforce Compatibility Check";
+value = 1;
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = trademark;
+value = "Noto is a trademark of Google LLC.";
+},
+{
+name = description;
+value = "Designed by Monotype design team. David Williams.";
+},
+{
+name = vendorID;
+value = GOOG;
+},
+{
+name = versionString;
+value = "Version 2.101";
+},
+{
 name = Axes;
 value = (
 {
@@ -165,14 +173,6 @@ Name = Weight;
 Tag = wght;
 }
 );
-},
-{
-name = "Enforce Compatibility Check";
-value = 1;
-},
-{
-name = "Disable Last Change";
-value = 1;
 }
 );
 date = "2019-11-26 14:41:45 +0000";
@@ -321,7 +321,8 @@ Location = 400;
 );
 descender = -293;
 horizontalStems = (
-60
+60,
+0
 );
 id = "035B6B88-DC2B-4755-84AA-849B4C460B3E";
 verticalStems = (
@@ -466,13 +467,13 @@ horizontalStems = (
 125,
 97
 );
-iconName = SemiBold;
 id = "5AA1EAEA-8D58-4489-814D-F0C3CE5E1471";
+name = Bold;
 verticalStems = (
 132,
 125
 );
-weight = Bold;
+weight = SemiBold;
 weightValue = 700;
 xHeight = 433;
 }
@@ -532,7 +533,6 @@ vertWidth = 0;
 width = 600;
 }
 );
-note = "";
 },
 {
 glyphname = CR;
@@ -548,7 +548,6 @@ vertWidth = 0;
 width = 260;
 }
 );
-note = "";
 unicode = 000D;
 },
 {
@@ -565,7 +564,6 @@ vertWidth = 0;
 width = 0;
 }
 );
-note = "";
 unicode = 0000;
 },
 {
@@ -604,9 +602,6 @@ vertWidth = 0;
 width = 342;
 }
 );
-leftKerningGroup = hyphen;
-note = "";
-rightKerningGroup = hyphen;
 unicode = 002D;
 },
 {
@@ -636,7 +631,6 @@ vertWidth = 0;
 width = 342;
 }
 );
-note = "";
 unicode = 2010;
 script = "";
 category = Punctuation;
@@ -656,7 +650,6 @@ vertWidth = 0;
 width = 260;
 }
 );
-note = "";
 unicode = 0020;
 },
 {
@@ -809,7 +802,6 @@ vertWidth = 0;
 width = 677;
 }
 );
-note = "";
 unicode = 110D0;
 },
 {
@@ -1160,7 +1152,6 @@ vertWidth = 0;
 width = 543;
 }
 );
-note = "";
 unicode = 110D1;
 },
 {
@@ -1277,7 +1268,6 @@ vertWidth = 0;
 width = 493;
 }
 );
-note = "";
 unicode = 110D2;
 },
 {
@@ -1372,7 +1362,6 @@ vertWidth = 0;
 width = 586;
 }
 );
-note = "";
 unicode = 110D3;
 },
 {
@@ -1561,7 +1550,6 @@ vertWidth = 0;
 width = 654;
 }
 );
-note = "";
 unicode = 110D4;
 },
 {
@@ -1686,7 +1674,6 @@ vertWidth = 0;
 width = 541;
 }
 );
-note = "";
 unicode = 110D5;
 },
 {
@@ -1956,7 +1943,6 @@ vertWidth = 0;
 width = 543;
 }
 );
-note = "";
 unicode = 110D6;
 },
 {
@@ -2147,7 +2133,6 @@ vertWidth = 0;
 width = 658;
 }
 );
-note = "";
 unicode = 110D7;
 },
 {
@@ -2342,7 +2327,6 @@ vertWidth = 0;
 width = 689;
 }
 );
-note = "";
 unicode = 110D8;
 },
 {
@@ -2471,7 +2455,6 @@ vertWidth = 0;
 width = 559;
 }
 );
-note = "";
 unicode = 110D9;
 },
 {
@@ -2620,7 +2603,6 @@ vertWidth = 0;
 width = 570;
 }
 );
-note = "";
 unicode = 110DA;
 },
 {
@@ -2827,7 +2809,6 @@ vertWidth = 0;
 width = 562;
 }
 );
-note = "";
 unicode = 110DB;
 },
 {
@@ -2980,7 +2961,6 @@ vertWidth = 0;
 width = 560;
 }
 );
-note = "";
 unicode = 110DC;
 },
 {
@@ -3473,7 +3453,6 @@ vertWidth = 0;
 width = 557;
 }
 );
-note = "";
 unicode = 110DD;
 },
 {
@@ -3747,7 +3726,6 @@ vertWidth = 0;
 width = 540;
 }
 );
-note = "";
 unicode = 110DE;
 },
 {
@@ -3918,7 +3896,6 @@ vertWidth = 0;
 width = 560;
 }
 );
-note = "";
 unicode = 110DF;
 },
 {
@@ -4230,7 +4207,6 @@ vertWidth = 0;
 width = 576;
 }
 );
-note = "";
 unicode = 110E0;
 },
 {
@@ -4451,7 +4427,6 @@ vertWidth = 0;
 width = 657;
 }
 );
-note = "";
 unicode = 110E1;
 },
 {
@@ -4586,7 +4561,6 @@ vertWidth = 0;
 width = 708;
 }
 );
-note = "";
 unicode = 110E2;
 },
 {
@@ -4729,7 +4703,6 @@ vertWidth = 0;
 width = 532;
 }
 );
-note = "";
 unicode = 110E3;
 },
 {
@@ -4982,7 +4955,6 @@ vertWidth = 0;
 width = 566;
 }
 );
-note = "";
 unicode = 110E4;
 },
 {
@@ -5053,7 +5025,6 @@ vertWidth = 0;
 width = 616;
 }
 );
-note = "";
 unicode = 110E5;
 },
 {
@@ -5184,7 +5155,6 @@ vertWidth = 0;
 width = 533;
 }
 );
-note = "";
 unicode = 110E6;
 },
 {
@@ -5403,7 +5373,6 @@ vertWidth = 0;
 width = 622;
 }
 );
-note = "";
 unicode = 110E7;
 },
 {
@@ -5524,7 +5493,6 @@ vertWidth = 0;
 width = 398;
 }
 );
-note = "";
 unicode = 110E8;
 },
 {
@@ -5621,7 +5589,6 @@ vertWidth = 0;
 width = 520;
 }
 );
-note = "";
 unicode = 110F0;
 },
 {
@@ -5696,7 +5663,6 @@ vertWidth = 0;
 width = 451;
 }
 );
-note = "";
 unicode = 110F1;
 },
 {
@@ -5807,7 +5773,6 @@ vertWidth = 0;
 width = 451;
 }
 );
-note = "";
 unicode = 110F2;
 },
 {
@@ -5974,7 +5939,6 @@ vertWidth = 0;
 width = 390;
 }
 );
-note = "";
 unicode = 110F3;
 },
 {
@@ -6093,7 +6057,6 @@ vertWidth = 0;
 width = 440;
 }
 );
-note = "";
 unicode = 110F4;
 },
 {
@@ -6154,7 +6117,6 @@ vertWidth = 0;
 width = 414;
 }
 );
-note = "";
 unicode = 110F5;
 },
 {
@@ -6297,7 +6259,6 @@ vertWidth = 0;
 width = 382;
 }
 );
-note = "";
 unicode = 110F6;
 },
 {
@@ -6422,7 +6383,6 @@ vertWidth = 0;
 width = 403;
 }
 );
-note = "";
 unicode = 110F7;
 },
 {
@@ -6479,7 +6439,6 @@ vertWidth = 0;
 width = 391;
 }
 );
-note = "";
 unicode = 110F8;
 },
 {
@@ -6620,7 +6579,6 @@ vertWidth = 0;
 width = 454;
 }
 );
-note = "";
 unicode = 110F9;
 },
 {
@@ -6638,7 +6596,6 @@ width = 260;
 }
 );
 widthMetricsKey = space;
-note = "";
 unicode = 00A0;
 }
 );
@@ -6670,8 +6627,10 @@ value = "instance_ufos/NotoSansSoraSompeng-Regular.ufo";
 }
 );
 interpolationWeight = 400;
+instanceInterpolations = {
+"035B6B88-DC2B-4755-84AA-849B4C460B3E" = 1;
+};
 name = Regular;
-weightClass = Normal;
 },
 {
 customParameters = (
@@ -6700,6 +6659,10 @@ value = "instance_ufos/NotoSansSoraSompeng-Medium.ufo";
 }
 );
 interpolationWeight = 500;
+instanceInterpolations = {
+"035B6B88-DC2B-4755-84AA-849B4C460B3E" = 0.66667;
+"5AA1EAEA-8D58-4489-814D-F0C3CE5E1471" = 0.33333;
+};
 linkStyle = Medium;
 name = Medium;
 weightClass = Medium;
@@ -6731,9 +6694,13 @@ value = "instance_ufos/NotoSansSoraSompeng-SemiBold.ufo";
 }
 );
 interpolationWeight = 600;
+instanceInterpolations = {
+"035B6B88-DC2B-4755-84AA-849B4C460B3E" = 0.33333;
+"5AA1EAEA-8D58-4489-814D-F0C3CE5E1471" = 0.66667;
+};
 linkStyle = "Semi Bold";
 name = "Semi Bold";
-weightClass = DemiBold;
+weightClass = SemiBold;
 },
 {
 customParameters = (
@@ -6762,6 +6729,9 @@ value = "instance_ufos/NotoSansSoraSompeng-Bold.ufo";
 }
 );
 interpolationWeight = 700;
+instanceInterpolations = {
+"5AA1EAEA-8D58-4489-814D-F0C3CE5E1471" = 1;
+};
 isBold = 1;
 name = Bold;
 weightClass = Bold;
